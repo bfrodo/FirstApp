@@ -11,10 +11,9 @@ import android.widget.TextView;
 import java.util.Random;
 
 
-public class StartingPoint extends ActionBarActivity {
+public class FumbleRoller extends ActionBarActivity {
 
     Random counter = new Random();
-    int n;
     Button melee,ranged,magic;
     TextView displaytype, displayeffect, displayroll;
 
@@ -30,6 +29,7 @@ public class StartingPoint extends ActionBarActivity {
         displaytype = (TextView) findViewById(R.id.tvtype);
         displayeffect = (TextView) findViewById(R.id.tveffect);
         displayroll = (TextView) findViewById(R.id.tvroll);
+
 
         melee.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -6,7 +6,8 @@
     android:paddingRight="7dp"
     android:paddingTop="7dp"
     android:paddingBottom="7dp"
-    tools:context=".StartingPoint">
+    tools:context=".StartingPoint"
+    android:background="@android:color/holo_blue_dark">
 
     <Button
         android:id="@+id/button1"
@@ -72,7 +73,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:id="@+id/tveffect"
-        android:background="#ffcbc4ff" />
+        android:background="#ffc1d6ff"
+        android:layout_alignParentBottom="true" />
 
 
 
